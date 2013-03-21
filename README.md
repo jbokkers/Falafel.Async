@@ -1,10 +1,17 @@
 # [Falafel.Sitefinity]
 ==================
 
-Repository containing a set of shared &amp; commonly used libraries &amp; css files for use with Sitefinity development
+Repository containing a set of shared &amp; commonly used js libraries &amp; style files for use with Sitefinity development.
+All files are minified for production use, excluding Bootstrap, Kendo & Sitefinity .LESS files.
 
 ## Async/libs
-Library collection to be used with require.js asynchronous loading;
+Library collection to be used with require.js asynchronous loading:
+
+### /backbone
+* Description: Provides models with key-value binding, collections with an API and view in a JSON interface.
+* Version: `0.9.2`
+* Status: `Fork`
+* Source: [http://backbonejs.org/](http://backbonejs.org/)
 
 ### /bootstrap
 * Description: Containing both .less & .css and minified .js
@@ -12,6 +19,11 @@ Library collection to be used with require.js asynchronous loading;
 * Status: `Customized`
 * Source: [https://github.com/twitter/bootstrap](https://github.com/twitter/bootstrap)
 
+### /bxslider
+* Description: Responsive jQuery Content Slider.
+* Version: `4.0.0`
+* Status: `Fork`
+* Source: [http://bxslider.com/](http://bxslider.com/)
 
 ### /html5shiv
 * Description: HTML5 IE enabling script
@@ -124,4 +136,4 @@ Library collection to be used with require.js asynchronous loading;
 
 ## Support & Copyright
 All data & samples are provided as is and merely aggregated. 
-For licensing & copyright information check the respective owners & links.
+For licensing & copyright information check the respective links.
